@@ -3,15 +3,10 @@ Portfolio
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>CJ B's IT Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; max-width: 700px; }
-    h1, h2 { color: #2c3e50; }
-    a { color: #2980b9; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .project { margin-bottom: 1.5rem; }
+ 
   </style>
 </head>
 <body>
