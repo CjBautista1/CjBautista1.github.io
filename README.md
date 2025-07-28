@@ -15,7 +15,6 @@ Portfolio
   </style>
 </head>
 <body>
-  <h1>CJ B's IT Portfolio</h1>
 
   <section>
     <h2>About Me</h2>
