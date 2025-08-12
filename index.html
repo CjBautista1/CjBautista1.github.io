@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christian Bautista - IT Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7fa;
+      margin: 0; padding: 0;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-style: italic;
+      color: #cbd3dc;
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 3px solid #2980b9;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+  
+
+    }
+    /* Projects grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+  background: white;
+  border: 2px solid #ffffff; /* white border */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 10px; /* adds spacing around each card */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+    }
+    .project-card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #2980b9;
+    }
+    .project-card a {
+      margin-top: auto;
+      color: #2c3e50;
+      font-weight: bold;
+      text-decoration: none;
+      align-self: flex-start;
+      border: 1px solid #2980b9;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .project-card a:hover {
+      background: #2980b9;
+      color: white;
+    }
+    /* Contact */
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: #cbd3dc;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="profile.jpg" alt="Christian James Bautista" />
+  <h1>Christian James Bautista</h1>
+  <p>IT Help Desk & Field Technician | Cybersecurity/Python Enthusiast </p>
+</header>
+
+<main>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I'm a dedicated and detail-oriented IT Support Specialist with hands-on experience in device provisioning, system imaging, user onboarding, and cross-platform troubleshooting. I’ve supported large-scale deployments, maintained accurate asset inventories, and resolved technical issues both remotely and on-site to ensure seamless user experiences. With a strong foundation in tools like Microsoft Intune, MDT, Autopilot, ServiceNow, and Active Directory, I thrive on solving problems efficiently and helping people get the most out of their technology. I'm passionate about continuous learning and committed to delivering reliable, user-focused IT solutions.
+
+</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+	<li><strong>Certifications:</strong> Google Coursera IT Support, TryHackMe Pre-security, TryHackMe Intro to Cyber Security </li>
+	<li><strong>IT Tools & Software:</strong> Microsoft 365, Microsoft Azure, Intune, Active Directory, ServiceNow, AutoPilot, DUO, Licensed software</li>
+	<li><strong>Operating Systems:</strong> Windows, MacOS </li>
+	<li><strong>Expertise:</strong> IT help desk, Asset management, Troubleshooting, Software installation, Data Transferring, Network Support</li>
+	<li><strong>Soft Skills:</strong> Problem Solving, Organization, Customer Service, Documentation, Team Collaboration, Adaptability</li>
+
+    </ul>
+  </section>
+
+ <section>
+  <h2>Work Experience</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>UCSF IT Field Technician</h3>
+      <p>Processed 30+ hardware requests weekly via ServiceNow, including standard Dell devices, custom (MacBook), and accessory orders, in compliance with procurement standards. Managed inventory of 100+ IT assets, imaged devices using MDT per UCSF standards, and conducted Zoom onboarding sessions to ensure seamless device setup and user integration.</p>
+    </div>
+    <div class="project-card">
+      <h3>Jazz Pharmaceuticals IT Technician</h3>
+      <p>Provisioned 50+ laptops weekly using engineering scripts and Autopilot via Intune, ensuring devices were fully updated, de-bloated, and ready for end users. Managed 100+ ServiceNow tickets monthly for laptop refreshes, coordinating remote and on-site support to resolve post-deployment issues (VPN, printers, SIM cards, Microsoft 365, etc.), while restoring user settings for a seamless experience. Also handled remote device wipes, CMDB updates, and e-waste prep to streamline decommissioning and maintain accurate inventory.</p>
+    </div>
+    <div class="project-card">
+      <h3>UCSF Refresh Technician (Internship)</h3>
+      <p>Managed imaging and configuration of 75+ laptops, micro form factors, and all-in-one devices weekly using MDT, ensuring correct domain, hostname, peripherals,   software, network, and printer setup for seamless deployment. Additionally, supported cross-departmental IT initiatives by training and onboarding students and employees on Active Directory account setup and software usage, facilitating smooth and efficient workflows from day one.</p>
+    </div>
+  </div>
+  <p style="margin-top: 30px;">
+    <a href="ChristianBautistaResume2025Updated.pdf" target="_blank" style="font-weight: bold; color: #2980b9; text-decoration: none;">
+      📄 View Resume
+    </a>
+  </p>
+</section>
+
+	
+  <section>
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:christianjbautista26@gmail.com">christianjbautista26@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/christianbautista26/" target="_blank" rel="noopener noreferrer">linkedin.com/in/christianbautista26/</a></p>
+    <p>GitHub: <a href="https://github.com/CjBautista1" target="_blank" rel="noopener noreferrer">github.com/CjBautista1</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Christian James Bautista</p>
+</footer>
+
+</body>
+</html>
